@@ -1,3 +1,35 @@
 #heading {
   color: blueviolet;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #282c34;
+  color: white;
+}
+
+/* Logo */
+.logo h2 {
+  margin: 0;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Search */
+.search input {
+  padding: 8px 15px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+/* User Icon */
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
